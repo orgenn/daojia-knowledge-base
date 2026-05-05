@@ -1,0 +1,6 @@
+{
+   "error" : {
+      "code" : "ERR_INVALID_FUNCTION",
+      "description" : "Unknown function."
+   }
+}

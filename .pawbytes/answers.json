@@ -1,0 +1,11 @@
+{
+  "core": {
+    "user_name": "Orgen",
+    "communication_language": "中文"
+  },
+  "module": {
+    "brands_folder": "G:/道家知识库01/.pawbytes/marketing-suites/brands",
+    "reports_folder": "G:/道家知识库01/.pawbytes/marketing-suites/reports",
+    "default_brand": ""
+  }
+}
