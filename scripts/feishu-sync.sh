@@ -223,7 +223,7 @@ create_feishu_structure() {
         2>&1 | tee -a "$LOG_FILE"
     
     # 创建子文件夹
-    for subdir in "01-核心概念" "02-商业运营" "03-教育内容" "04-合规规范" "05-项目资料" "06-角色设定" "07-经典书籍" "08-LLM-Wiki知识管理" "基础RAW"; do
+    for subdir in "01-核心概念" "02-商业运营" "03-教育内容" "04-合规规范" "05-项目资料" "06-角色设定" "07-经典书籍" "08-LLM-Wiki知识管理" ".raw"; do
         echo "创建子文件夹: $subdir"
         lark-cli drive +create-folder \
             --name "$subdir" \
